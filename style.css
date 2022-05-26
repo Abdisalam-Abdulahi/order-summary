@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-image: url("images/pattern-background-desktop.svg");
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  height: 480px;
+  width: 330px;
+  background-image: url('images/illustration-hero.svg');
+  background-size: 100%;
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+}
+h3 {
+  margin-top: 190px;
+  font-weight: bold;
+}
+.main-text {
+  max-width: 280px;
+  margin-left: 35px;
+}
+.little-box {
+  height: 75px;
+  width: 260px;
+  background-color: hsl(225, 24%, 93%);
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.text-in-the-little-box {
+  margin: 0;
+  font-weight: bold;
+}
+img {
+  margin-left: 0px;
+}
+.price {
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 00px;
+}
+.change {
+  margin-left: 40px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.proceed-to-payment {
+  height: 40px;
+  width: 270px;
+  background-color: hsl(245, 75%, 52%);
+  margin: 15px 20px 20px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+}
+.text-in-proced {
+  margin-left: 50px;
+}
+.cancel {
+  color: hsl(225, 80%, 4%);
+  font-weight: 500px;
+}
